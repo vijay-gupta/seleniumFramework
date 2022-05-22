@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test_Suite">
+    <listeners>
+        <listener class-name="com.qa.listeners.execute_listener"></listener>
+        <listener class-name="com.qa.listeners.suite_listener"></listener>
+        <listener class-name="com.qa.listeners.test_listener"></listener>
+        <listener class-name="com.qa.listeners.AnnotationTransformer"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="TEst">
+        <classes>
+            <!--<class name="com.qa.test.API.sampleAPITest"></class>
+            <class name="com.qa.test.Web.LoginPageTest"></class>-->
+        </classes>
+    </test>
+</suite>

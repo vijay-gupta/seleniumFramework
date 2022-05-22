@@ -1,0 +1,24 @@
+sample_func_sub1:
+  method: GET
+  endpoint: "/V4"
+  queryparams: None
+  headers: {'Content-Type': 'application/json'}
+  payload: None
+  target_url: "http://demo.guru99.com"
+
+
+sample_func_sub2:
+  method: GET
+  endpoint: "/employees"
+  queryparams: None
+  headers: {'Content-Type': 'application/json'}
+  payload: None
+  target_url: "http://dummy.restapiexample.com/api/v1"
+
+sample_func_sub3:
+  method: POST
+  endpoint: "/post/json"
+  queryparams: None
+  headers: {'Content-Type': 'application/json'}
+  payload:  "Sample_Functionality\\sample_func_sub2.json"
+  target_url: "https://reqbin.com/echo"
